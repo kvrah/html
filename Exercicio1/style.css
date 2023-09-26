@@ -1,0 +1,45 @@
+/* RcBank */
+
+.servicos{
+    display: inline;
+    padding: 20px;
+
+}
+
+.titulo{
+    color: blue;
+
+}
+
+.plan{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 2%;
+    
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+
+    
+}
+
+footer {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table th, table td {
+    padding: 10px 20px;
+    text-align: center;
+}

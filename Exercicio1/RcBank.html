@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rc Bank</title>
 </head>
+<link rel="stylesheet" href="./style.css">
 <body>
     <header>
 
         <img src="./imagens/2023-09-22 (3).png" width=20% alt="Logo RcBank">
     </header>
     <nav>
-        <a href="index.html" title="Home">Home</a>
-        <ul>
+        <ul class="menu">
             <li>Home</li>
             <li>Acesse a sua conta</li>
             <li>Emprestimos</li>
@@ -21,10 +21,10 @@
         </ul>
     </nav>
     <main>
-        <h1>Olá, bem vindo ao Rc Bank, o seu banco de confiança!</h1>
+        <h1 class="titulo">Olá, bem vindo ao Rc Bank, o seu banco de confiança!</h1>
     </main>
-    <h2>Serviços</h2>
-    <figure>
+    <h2>Serviços </h2>
+    <figure id="servicos">
         <img src="./imagens/Abra sua conta.png" width=30% alt="Abra a sua conta">
         <figcaption><strong>Abra sua conta</strong></figcaption>
         <img src="./imagens/emprestimos.png" width=30% alt="aba de emprestimos">
@@ -34,10 +34,11 @@
 
     </figure>
 
+    <div class="plan">
     <a href="https://www.suno.com.br/guias/planejamento-financeiro/" target="_blank"><br> Dicas de planejamento financeiro
         <br> <img src="./imagens/dicas financeiras.jpg" width=30% alt="Dicas financeiras">
     </a>
-
+</div>
 
     <br>
     <table>
@@ -68,7 +69,7 @@
         </tfoot>
     </table>
 
-    <footer>
+    <footer class="footer">
         <p>Desenvolvido por Richard Campos</p>
         <p>copyright 2023, direitos Autorais © </p>
     </footer>
